@@ -1,0 +1,53 @@
+Manifest-Version: 1.0
+Main-Class: com.rebox.ReboxApplication
+Class-Path: tomcat-embed-core-10.1.10.jar lib/jackson-annotations-2.15.2
+ .jar lib/knife4j-openapi3-jakarta-spring-boot-starter-lib/4.4.0.jar lib
+ /jackson-core-2.15.2.jar lib/spring-webmvc-6.0.10.jar lib/tomcat-embed-
+ el-10.1.10.jar lib/spring-core-6.0.10.jar lib/spring-data-keyvalue-3.1.
+ 1.jar lib/netty-transport-native-unix-common-4.1.94.Final.jar lib/mybat
+ is-plus-spring-boot3-starter-3.5.5.jar lib/poi-4.1.2.jar lib/spring-oxm
+ -6.0.10.jar lib/lettuce-core-6.2.4.RELEASE.jar lib/spring-boot-starter-
+ logging-3.1.1.jar lib/jakarta.mail-1.1.0.jar lib/mybatis-3.5.13.jar lib
+ /java-jwt-4.4.0.jar lib/commons-collections4-4.4.jar lib/spring-data-co
+ mmons-3.1.1.jar lib/spring-boot-starter-mail-3.1.1.jar lib/commons-code
+ c-1.15.jar lib/mybatis-plus-3.5.5.jar lib/jakarta.validation-api-3.0.2.
+ jar lib/reactive-streams-1.0.4.jar lib/netty-codec-4.1.94.Final.jar lib
+ /angus-activation-2.0.1.jar lib/swagger-models-jakarta-2.2.19.jar lib/s
+ wagger-ui-5.10.3.jar lib/jackson-dataformat-yaml-2.15.2.jar lib/spring-
+ jcl-6.0.10.jar lib/poi-ooxml-4.1.2.jar lib/springdoc-openapi-starter-we
+ bmvc-ui-2.3.0.jar lib/netty-buffer-4.1.94.Final.jar lib/mybatis-plus-co
+ re-3.5.5.jar lib/spring-expression-6.0.10.jar lib/easyexcel-core-3.3.2.
+ jar lib/swagger-annotations-jakarta-2.2.19.jar lib/easyexcel-support-3.
+ 3.2.jar lib/mybatis-plus-annotation-3.5.5.jar lib/spring-context-suppor
+ t-6.0.10.jar lib/jakarta.activation-api-2.1.2.jar lib/commons-io-2.11.0
+ .jar lib/spring-security-crypto-6.1.1.jar lib/spring-aop-6.0.10.jar lib
+ /SparseBitSet-1.2.jar lib/jackson-datatype-jdk8-2.15.2.jar lib/mybatis-
+ plus-boot-starter-3.5.5.jar lib/spring-boot-starter-jdbc-3.1.1.jar lib/
+ mybatis-spring-boot-autoconfigure-3.0.2.jar lib/commons-compress-1.19.j
+ ar lib/spring-boot-starter-data-redis-3.1.1.jar lib/commons-lang3-3.12.
+ 0.jar lib/spring-boot-starter-json-3.1.1.jar lib/jackson-datatype-jsr31
+ 0-2.15.2.jar lib/netty-handler-4.1.94.Final.jar lib/mybatis-spring-boot
+ -starter-3.0.2.jar lib/slf4j-api-2.0.7.jar lib/spring-tx-6.0.10.jar lib
+ /spring-boot-starter-3.1.1.jar lib/micrometer-observation-1.11.1.jar li
+ b/reactor-core-3.5.7.jar lib/knife4j-openapi3-ui-4.4.0.jar lib/spring-b
+ oot-autoconfigure-3.1.1.jar lib/jsqlparser-4.6.jar lib/xmlbeans-3.1.0.j
+ ar lib/spring-boot-configuration-processor-3.1.1.jar lib/spring-boot-st
+ arter-web-3.1.1.jar lib/netty-common-4.1.94.Final.jar lib/netty-transpo
+ rt-4.1.94.Final.jar lib/jakarta.xml.bind-api-4.0.0.jar lib/mybatis-spri
+ ng-3.0.3.jar lib/logback-classic-1.4.8.jar lib/curvesapi-1.06.jar lib/s
+ nakeyaml-1.33.jar lib/HikariCP-5.0.1.jar lib/log4j-api-2.20.0.jar lib/m
+ icrometer-commons-1.11.1.jar lib/jakarta.annotation-api-2.1.1.jar lib/s
+ pringdoc-openapi-starter-common-2.3.0.jar lib/spring-boot-3.1.1.jar lib
+ /easyexcel-3.3.2.jar lib/log4j-to-slf4j-2.20.0.jar lib/mybatis-plus-ext
+ ension-3.5.5.jar lib/commons-csv-1.8.jar lib/jul-to-slf4j-2.0.7.jar lib
+ /logback-core-1.4.8.jar lib/jackson-module-parameter-names-2.15.2.jar l
+ ib/ehcache-3.9.9.jar lib/tomcat-embed-websocket-10.1.10.jar lib/netty-r
+ esolver-4.1.94.Final.jar lib/spring-boot-starter-tomcat-3.1.1.jar lib/s
+ pring-data-redis-3.1.1.jar lib/lombok-1.18.28.jar lib/spring-web-6.0.10
+ .jar lib/springdoc-openapi-starter-webmvc-api-2.3.0.jar lib/mybatis-plu
+ s-spring-boot-autoconfigure-3.5.5.jar lib/jackson-databind-2.15.2.jar l
+ ib/spring-context-6.0.10.jar lib/spring-jdbc-6.0.10.jar lib/knife4j-cor
+ e-4.4.0.jar lib/spring-boot-devtools-3.1.1.jar lib/mysql-connector-j-8.
+ 0.33.jar lib/poi-ooxml-schemas-4.1.2.jar lib/swagger-core-jakarta-2.2.1
+ 9.jar lib/spring-beans-6.0.10.jar lib/commons-math3-3.6.1.jar
+

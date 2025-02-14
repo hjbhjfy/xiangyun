@@ -1,0 +1,14 @@
+#从jdk开始创建新镜像
+FROM openjdk:17
+#定义环境变量
+ENV appdir /mywork
+#运行创建目录的命令
+RUN mkdir ${appdir}
+#设置工作目录，在这个目录中执行后面的命令
+WORKDIR ${appdir}
+#拷贝文件
+COPY ./myapp.jar ${appdir}/myapp.jar
+#用于提示说明，无实际意义，端口号是在jar中设置好的
+EXPOSE 8001
+#运行启动要执行的命令， java -jar myapp.jar
+CMD ["java","-jar","myapp.jar"]
