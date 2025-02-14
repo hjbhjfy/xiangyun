@@ -9,7 +9,6 @@ import com.rebox.domain.query.TeacerRegisterQuery;
 import com.rebox.enums.CodeEnum;
 import com.rebox.result.RestResult;
 import com.rebox.service.TeacherInfoService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -31,9 +30,9 @@ import org.springframework.web.bind.annotation.*;
  * @Date 2024-06-21
  * @Version V1.0.0
  **/
-@Api(value = "教师信息表", tags = "教师信息表")
-@RestController
-@RequestMapping("/teacherInfo")
+//@Api(value = "教师信息表", tags = "教师信息表")
+//@RestController
+//@RequestMapping("/teacherInfo")
 public class TeacherInfoController {
 
     @Autowired

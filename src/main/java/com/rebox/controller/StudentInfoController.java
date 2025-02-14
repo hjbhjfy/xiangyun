@@ -9,7 +9,6 @@ import com.rebox.domain.query.StudentRegisterQuery;
 import com.rebox.enums.CodeEnum;
 import com.rebox.result.RestResult;
 import com.rebox.service.StudentInfoService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -31,9 +30,9 @@ import org.springframework.web.bind.annotation.*;
  * @Date 2024-06-21
  * @Version V1.0.0
  **/
-@Api(value = "学生信息表", tags = "学生信息表")
-@RestController
-@RequestMapping("/studentInfo")
+//@Api(value = "学生信息表", tags = "学生信息表")
+//@RestController
+//@RequestMapping("/studentInfo")
 public class StudentInfoController {
 
     @Resource

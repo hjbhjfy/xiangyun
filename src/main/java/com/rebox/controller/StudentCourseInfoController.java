@@ -9,14 +9,16 @@ import com.rebox.result.RestResult;
 import com.rebox.service.CourseInfoService;
 import com.rebox.service.StudentCourseInfoService;
 import com.rebox.service.StudentInfoService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @ClassName StudentCourseInfoController
@@ -25,9 +27,9 @@ import org.springframework.web.bind.annotation.*;
  * @Date 2024-06-21
  * @Version V1.0.0
  **/
-@Api(value = "学生课程表", tags = "学生课程表")
-@RestController
-@RequestMapping("/studentCourseInfo")
+//@Api(value = "学生课程表", tags = "学生课程表")
+//@RestController
+//@RequestMapping("/studentCourseInfo")
 public class StudentCourseInfoController {
 
     @Autowired

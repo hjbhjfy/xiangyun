@@ -5,14 +5,16 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.rebox.domain.po.CourseInfo;
 import com.rebox.result.RestResult;
 import com.rebox.service.CourseInfoService;
-import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * @ClassName CourseInfoController
@@ -21,9 +23,9 @@ import org.springframework.web.bind.annotation.*;
  * @Date 2024-06-21
  * @Version V1.0.0
  **/
-@Api(value = "课程信息表", tags = "课程信息表")
-@RestController
-@RequestMapping("/courseInfo")
+//@Api(value = "课程信息表", tags = "课程信息表")
+//@RestController
+//@RequestMapping("/courseInfo")
 public class CourseInfoController {
 
     @Autowired
